@@ -2,7 +2,7 @@
 Stock Analysis/Excel VBA
 
 ## Overview of Project
-    To help Steve analyze 2017 and 2108 stock data more effeciently.  
+    To help Steve analyze 2017 and 2108 stock data more efficiently.  
     
 ### Purpose
     Steve wants to find the total daily volume and yearly return for all stocks in 2017 and 2018 using cleaner and better code. I used Excel VBA code to 
