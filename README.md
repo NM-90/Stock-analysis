@@ -97,9 +97,13 @@ After refactoring, these were the new run times:
 <img width="229" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/111452227/200416257-63d0d9ff-a42d-4c89-852a-dddaa362b7aa.png">
 <img width="218" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/111452227/200416286-b952e721-4410-4283-9a25-819139256abb.png">
 
+
+The returns in 2017 fared way better than in 2018.  There was only one stock (TERP) in 2017 that did not do well but the rest did great, especially (DQ), (ENPH), (FSLR), and (SEDG).  
+
+There were only two stocks that did well in 2018, ENPH and RUN so looks like Steve needs to recommend different companies to invest in.  
 ### 
 
-### Challenges and Difficulties Encountered
+### Summary
 
     Refactoring the code in general:
     One of the challenges of this project was learning how to loop the data.  Without properly looping the data, the output only provided the results of 
@@ -109,10 +113,13 @@ After refactoring, these were the new run times:
     there difficutly was learning how to open the correct VBA macro while learning how to use VBA. Entering the code in Microsoft Excel Objects instead 
     of the Module sheets caused confusion.     
     
+    The advantage of the code in general is that it is shorter and can prodcue the output for two years.  It may be easier to apply this code to future  
+    years as long as the columns are the same.  
+    
     Original and refactored VBA script:
     While refactoring the code provided a more efficient code, it did have some challenges.  First, the code had to be refined in order to produce both   
     2017 and 2018 using one macro instead of creating one for each year.  For reference, the initial code only gave the 2018 output. Another difference 
     in the refactored code was increasing of the ticker index, "tickerIndex = tickerIndex +1". And lastly, the tickerVolumes array was added including  
     the total number of the string (12) to the refactored code.  
-    
+    The advantage on working on a better code is condensing the code to give a faster output.  
 
