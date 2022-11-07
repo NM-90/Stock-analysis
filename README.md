@@ -1,13 +1,15 @@
 # Stock-analysis
-Stock Analysis
+Stock Analysis/Excel VBA
 
 ## Overview of Project
-    To help Steve analyze 2017 and 2108 stock data.
+    To help Steve analyze 2017 and 2108 stock data more effeciently.  
     
 ### Purpose
-    Steve wants to find the total daily volume and yearly return for all stocks in 2017 and 2018 and I used Excel VBA code to refactor an earlier code to run the data faster.  
+    Steve wants to find the total daily volume and yearly return for all stocks in 2017 and 2018 using cleaner and better code. I used Excel VBA code to 
+    refactor an earlier code to run the data faster.  
     
-    In this projext the word "stock" is replacted with "ticker".  Several tickers(stocks) were compared to see which ones gave the best yearly returns(volume).  
+    Of note, this projext the word "stock" is replacted with "ticker".  Several tickers(stocks) were compared to see which ones gave the best yearly 
+    returns(volume).  
     
 ## Results
 
@@ -99,17 +101,18 @@ After refactoring, these were the new run times:
 
 ### Challenges and Difficulties Encountered
 
+    Refactoring the code in general:
     One of the challenges of this project was learning how to loop the data.  Without properly looping the data, the output only provided the results of 
-    of the first ticker.  It was imperative to include (i) in the loop.   Also, While refactoring the code, the code had to be refined to produce both 
-    2017 and 2018 data upon request.  For reference, the initial code only gave the 2018 output. Another difficutly was learning how to open the correct 
-    VBA macro. Entering the code in Microsoft Excel Objects instead of the Module sheets caused confusion.  
+    of the first ticker.  It was imperative to include (i) in the loop. In turn, knowing when to close the loops, in this case there were two, "i" and   
+    "j" and where to indent to give the the correct results. One also needs to inspect the data to understand what types of information there is in 
+    order to create the correct arrays.  The tickerVolume was a Long number while the tickerStarting and Ending prices were Single numbers.  In general, 
+    there difficutly was learning how to open the correct VBA macro while learning how to use VBA. Entering the code in Microsoft Excel Objects instead 
+    of the Module sheets caused confusion.     
+    
+    Original and refactored VBA script:
+    While refactoring the code provided a more efficient code, it did have some challenges.  First, the code had to be refined in order to produce both   
+    2017 and 2018 using one macro instead of creating one for each year.  For reference, the initial code only gave the 2018 output. Another difference 
+    in the refactored code was increasing of the ticker index, "tickerIndex = tickerIndex +1". And lastly, the tickerVolumes array was added including  
+    the total number of the string (12) to the refactored code.  
+    
 
-## Summary
-
-- What are two conclusions. 
-
-- What can you conclude about the Outcomes based on Goals?
-
-- What are some limitations of this dataset?
-
-- What are some other possible tables and/or graphs that we could create?
