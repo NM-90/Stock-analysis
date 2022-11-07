@@ -100,7 +100,7 @@ After refactoring, these were the new run times:
 
 The returns in 2017 fared way better than in 2018.  There was only one stock (TERP) in 2017 that did not do well but the rest did great, especially (DQ), (ENPH), (FSLR), and (SEDG).  
 
-There were only two stocks that did well in 2018, ENPH and RUN so looks like Steve needs to recommend different companies to invest in.  
+There were only two stocks that did well in 2018, (ENPH) and (RUN) so looks like Steve needs to recommend different companies to invest in.  
 ### 
 
 ### Summary
